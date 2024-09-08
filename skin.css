@@ -1,0 +1,183 @@
+* {
+    font-family: 'VCR OSD Mono', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+
+
+}
+
+
+.work {
+    display: flex;
+}
+
+.side {
+    margin-top: -10px;
+    z-index: 2;
+
+}
+
+.side-title img {
+    width: 265px;
+    padding-left: 9px;
+    display: block;
+}
+
+.side-title {
+    margin-bottom: 32px;
+
+}
+
+.side-title a,
+.side-title span {
+    font-size: 21px;
+    padding-left: 10px;
+    line-height: 15px;
+
+
+}
+
+.work-link1,
+.work-link2,
+.work-link3,
+.work-link4,
+.work-link5,
+.work-link6,
+.work-link7,
+.work-link8,
+.work-link9,
+.work-link10,
+.work-link11,
+.work-link12,
+.work-link13 {
+    margin-bottom: 5px;
+    width: 276px;
+
+}
+
+.work-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+
+}
+
+.work {
+    font-size: 21px;
+    margin-bottom: -5px;
+}
+
+.word {
+    font-size: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+.links a {
+
+    font-size: 21px;
+    line-height: 18px;
+}
+
+.hovimg1,
+.hovimg2,
+.hovimg3,
+.hovimg4,
+.hovimg5,
+.hovimg6,
+.hovimg7,
+.hovimg8,
+.hovimg9,
+.hovimg10,
+.hovimg11,
+.hovimg12,
+.hovimg13 {
+    width: 100vw;
+    height: 90vh;
+    pointer-events: none;
+    position: fixed;
+    top: 5%;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0;
+}
+
+.work-link1:hover .hovimg1,
+.work-link2:hover .hovimg2,
+.work-link3:hover .hovimg3,
+.work-link4:hover .hovimg4,
+.work-link5:hover .hovimg5,
+.work-link6:hover .hovimg6,
+.work-link7:hover .hovimg7,
+.work-link8:hover .hovimg8,
+.work-link9:hover .hovimg9,
+.work-link10:hover .hovimg10,
+.work-link11:hover .hovimg11,
+.work-link12:hover .hovimg12,
+.work-link13:hover .hovimg13 {
+    opacity: 1;
+
+}
+
+.hovimg1 {
+    background-image: url(media/image-1.jpg);
+}
+
+.hovimg2 {
+    background-image: url(media/image-2.jpg);
+}
+
+.hovimg3 {
+    background-image: url(media/image-3.jpg);
+}
+
+.hovimg4 {
+    background-image: url(media/image-4.jpeg);
+}
+
+.hovimg5 {
+    background-image: url(media/image-5.jpg);
+}
+
+.hovimg6 {
+    background-image: url(media/image-6.jpg);
+}
+
+.hovimg7 {
+    background-image: url(media/image-7.jpg);
+}
+
+.hovimg8 {
+    background-image: url(media/image-8.jpg);
+}
+
+.hovimg9 {
+    background-image: url(media/image-9.jpg);
+}
+
+.hovimg10 {
+    background-image: url(media/image-10.jpg);
+}
+
+.hovimg11 {
+    background-image: url(media/image-11.jpeg);
+}
+
+.hovimg12 {
+    background-image: url(media/image-12.jpg);
+}
+
+.hovimg13 {
+    background-image: url(media/image-13.jpg);
+}
